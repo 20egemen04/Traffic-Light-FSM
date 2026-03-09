@@ -1,4 +1,5 @@
-This is for ELE432 Homework 1.
-Student info:
-Name: Egemen Çelik
-Student ID: 2220357034
+This is for ELE432 Homework 1.\
+\
+**Student info:**
+**Name:** &ensp;Egemen Çelik\
+**Student ID:** &emsp;&emsp;&emsp;&emsp;&ensp;2220357034
