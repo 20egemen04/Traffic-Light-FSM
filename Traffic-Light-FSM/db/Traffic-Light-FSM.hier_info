@@ -1,0 +1,49 @@
+|TrafficTop
+clk_50MHz => clk_50MHz.IN1
+reset => reset.IN2
+TAORB => TAORB.IN1
+led[0] << Traffic:traffic_inst.led
+led[1] << Traffic:traffic_inst.led
+led[2] << Traffic:traffic_inst.led
+led[3] << Traffic:traffic_inst.led
+led[4] << Traffic:traffic_inst.led
+led[5] << Traffic:traffic_inst.led
+
+
+|TrafficTop|HalfMicroSecond:halfmicrosecond_inst
+clk_50MHz => r_half.CLK
+clk_50MHz => r_count[0].CLK
+clk_50MHz => r_count[1].CLK
+clk_50MHz => r_count[2].CLK
+clk_50MHz => r_count[3].CLK
+clk_50MHz => r_count[4].CLK
+reset => r_half.ACLR
+reset => r_count[0].ACLR
+reset => r_count[1].ACLR
+reset => r_count[2].ACLR
+reset => r_count[3].ACLR
+reset => r_count[4].ACLR
+clk_halfmicrosec <= r_half.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TrafficTop|Traffic:traffic_inst
+clk => timer[0].CLK
+clk => timer[1].CLK
+clk => timer[2].CLK
+clk => state_reg[0].CLK
+clk => state_reg[1].CLK
+reset => timer[0].ACLR
+reset => timer[1].ACLR
+reset => timer[2].ACLR
+reset => state_reg[0].ACLR
+reset => state_reg[1].ACLR
+TAORB => Selector1.IN7
+TAORB => Selector1.IN0
+led[0] <= Equal3.DB_MAX_OUTPUT_PORT_TYPE
+led[1] <= Equal4.DB_MAX_OUTPUT_PORT_TYPE
+led[2] <= led.DB_MAX_OUTPUT_PORT_TYPE
+led[3] <= Equal1.DB_MAX_OUTPUT_PORT_TYPE
+led[4] <= Equal2.DB_MAX_OUTPUT_PORT_TYPE
+led[5] <= led.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clk_50MHz'
+Slack : -6.795
+TNS   : -11.323
+
+Type  : Slow 1100mV 85C Model Setup 'HalfMicroSecond:halfmicrosecond_inst|r_half'
+Slack : -1.115
+TNS   : -6.381
+
+Type  : Slow 1100mV 85C Model Hold 'clk_50MHz'
+Slack : 0.375
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'HalfMicroSecond:halfmicrosecond_inst|r_half'
+Slack : 0.591
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk_50MHz'
+Slack : -0.394
+TNS   : -6.725
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'HalfMicroSecond:halfmicrosecond_inst|r_half'
+Slack : -0.394
+TNS   : -3.053
+
+Type  : Slow 1100mV 0C Model Setup 'clk_50MHz'
+Slack : -6.782
+TNS   : -11.485
+
+Type  : Slow 1100mV 0C Model Setup 'HalfMicroSecond:halfmicrosecond_inst|r_half'
+Slack : -1.143
+TNS   : -6.492
+
+Type  : Slow 1100mV 0C Model Hold 'clk_50MHz'
+Slack : 0.390
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'HalfMicroSecond:halfmicrosecond_inst|r_half'
+Slack : 0.559
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk_50MHz'
+Slack : -0.394
+TNS   : -6.528
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'HalfMicroSecond:halfmicrosecond_inst|r_half'
+Slack : -0.394
+TNS   : -3.061
+
+Type  : Fast 1100mV 85C Model Setup 'clk_50MHz'
+Slack : -3.679
+TNS   : -3.679
+
+Type  : Fast 1100mV 85C Model Setup 'HalfMicroSecond:halfmicrosecond_inst|r_half'
+Slack : -0.411
+TNS   : -2.256
+
+Type  : Fast 1100mV 85C Model Hold 'clk_50MHz'
+Slack : 0.182
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'HalfMicroSecond:halfmicrosecond_inst|r_half'
+Slack : 0.317
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk_50MHz'
+Slack : -0.425
+TNS   : -4.080
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'HalfMicroSecond:halfmicrosecond_inst|r_half'
+Slack : 0.161
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'clk_50MHz'
+Slack : -3.476
+TNS   : -3.476
+
+Type  : Fast 1100mV 0C Model Setup 'HalfMicroSecond:halfmicrosecond_inst|r_half'
+Slack : -0.333
+TNS   : -1.852
+
+Type  : Fast 1100mV 0C Model Hold 'clk_50MHz'
+Slack : 0.172
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'HalfMicroSecond:halfmicrosecond_inst|r_half'
+Slack : 0.280
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk_50MHz'
+Slack : -0.421
+TNS   : -3.983
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'HalfMicroSecond:halfmicrosecond_inst|r_half'
+Slack : 0.160
+TNS   : 0.000
+
+------------------------------------------------------------

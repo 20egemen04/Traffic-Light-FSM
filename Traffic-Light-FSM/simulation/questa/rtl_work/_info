@@ -1,0 +1,137 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Projects/quartus/Traffic-Light-FSM/simulation/questa
+T_opt
+!i145 1
+!i144 0
+!s110 1773942710
+VIXEiT9D]G44[7AhSIj6iX1
+04 10 4 work Traffic_TB fast 0
+=1-b025aa47843a-69bc37b5-1e3-351c
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U4 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work +acc
+tCvgOpt 0 defaultOptions 1107585188
+n@_opt
+OL;O;2025.2;82
+vHalfMicroSecond
+2C:/Projects/quartus/Traffic-Light-FSM/HalfMicroSecond.sv
+Z2 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+Z3 !s110 1773942708
+!i10b 1
+!s100 [5W?<:iJ]3BBYomCXhnA90
+IfbB0jOS[EYa`49A8P5]OO3
+S1
+R1
+w1773685491
+8C:/Projects/quartus/Traffic-Light-FSM/HalfMicroSecond.sv
+FC:/Projects/quartus/Traffic-Light-FSM/HalfMicroSecond.sv
+!i122 2
+L0 10 26
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z6 !s108 1773942708.000000
+!s107 C:/Projects/quartus/Traffic-Light-FSM/HalfMicroSecond.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Projects/quartus/Traffic-Light-FSM|C:/Projects/quartus/Traffic-Light-FSM/HalfMicroSecond.sv|
+!i113 0
+Z7 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 !s92 -sv -work work +incdir+C:/Projects/quartus/Traffic-Light-FSM -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 tCvgOpt 0 defaultOptions 1085333592
+n@half@micro@second
+vTraffic
+2C:/Projects/quartus/Traffic-Light-FSM/Traffic.sv
+R2
+R3
+!i10b 1
+!s100 WzYlKIJ;ghL4[DaWPE9Ci2
+IH3PV]8I]Wje^z?l6k<je?3
+S1
+R1
+w1773935058
+8C:/Projects/quartus/Traffic-Light-FSM/Traffic.sv
+FC:/Projects/quartus/Traffic-Light-FSM/Traffic.sv
+!i122 0
+L0 9 84
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Projects/quartus/Traffic-Light-FSM/Traffic.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Projects/quartus/Traffic-Light-FSM|C:/Projects/quartus/Traffic-Light-FSM/Traffic.sv|
+!i113 0
+R7
+R8
+R9
+n@traffic
+vTraffic_TB
+2C:/Projects/quartus/Traffic-Light-FSM/Traffic_TB.sv
+R2
+R3
+!i10b 1
+!s100 ;3LSWQCDL_YlH1KO7bHfc2
+Ih_Gbb4QOYdCeTOh`DMole1
+S1
+R1
+w1773938224
+8C:/Projects/quartus/Traffic-Light-FSM/Traffic_TB.sv
+FC:/Projects/quartus/Traffic-Light-FSM/Traffic_TB.sv
+!i122 3
+L0 9 64
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Projects/quartus/Traffic-Light-FSM/Traffic_TB.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Projects/quartus/Traffic-Light-FSM|C:/Projects/quartus/Traffic-Light-FSM/Traffic_TB.sv|
+!i113 0
+R7
+R8
+R9
+n@traffic_@t@b
+vTrafficTop
+2C:/Projects/quartus/Traffic-Light-FSM/TrafficTop.sv
+R2
+R3
+!i10b 1
+!s100 R`T78SXe1bnM[<ig]4Ka@2
+IfFl47P09OgzS>ZTcN<eY?0
+S1
+R1
+w1773685990
+8C:/Projects/quartus/Traffic-Light-FSM/TrafficTop.sv
+FC:/Projects/quartus/Traffic-Light-FSM/TrafficTop.sv
+!i122 1
+L0 9 26
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Projects/quartus/Traffic-Light-FSM/TrafficTop.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Projects/quartus/Traffic-Light-FSM|C:/Projects/quartus/Traffic-Light-FSM/TrafficTop.sv|
+!i113 0
+R7
+R8
+R9
+n@traffic@top

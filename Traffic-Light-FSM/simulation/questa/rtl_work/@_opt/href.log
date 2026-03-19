@@ -1,0 +1,8 @@
+BEGIN 1:Traffic:fast:work
+    state_reg :  1:Traffic_TB:fast:work
+    timer :  1:Traffic_TB:fast:work
+    state_next :  1:Traffic_TB:fast:work
+END 
+BEGIN 1:HalfMicroSecond:fast:work
+    clk_halfmicrosec :  1:Traffic_TB:fast:work
+END 
