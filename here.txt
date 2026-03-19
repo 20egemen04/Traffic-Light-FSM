@@ -1,0 +1,4 @@
+Egemen Çelik 2220357034
+ELE432 Homework 1
+
+https://github.com/20egemen04/Traffic-Light-FSM
