@@ -1,4 +1,4 @@
-This is for ELE432 Assignment 1 Warm-Up – Traffic Light Controller FSM (with Delay). The whole quartus project folder and the files necessary only for grading are both included.
+This is for ELE432 Assignment 1 Warm-Up – Traffic Light Controller FSM (with Delay). The whole Quartus project folder and the files necessary only for grading are both included.
 
 **Student info:**
 **Name:** &ensp;Egemen Çelik\
